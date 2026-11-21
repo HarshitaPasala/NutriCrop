@@ -1,0 +1,141 @@
+{
+  "source": "CIBRC - Central Insecticides Board & Registration Committee, Ministry of Agriculture & Farmers Welfare, Govt. of India",
+  "disclaimer": "Chemical treatments must strictly adhere to registered label claims. Observe mandatory Pre-Harvest Intervals (PHI) and Personal Protective Equipment (PPE) precautions.",
+  "labels": {
+    "thrips": {
+      "pest_name": "Thrips",
+      "crops": ["Chilli", "Cotton", "Tomato", "Onion", "Groundnut"],
+      "verified_products": [
+        {
+          "active_ingredient": "Spinosad 45% SC",
+          "trade_examples": "Tracer, Success",
+          "dosage_per_acre": "60–75 ml in 200 L water",
+          "concentration": "0.3–0.4 ml per litre of water",
+          "application_method": "Foliar spray during early morning or late afternoon",
+          "phi_days": 3,
+          "toxicity_class": "Class III (Slightly hazardous - Blue label)",
+          "ppe_required": "Face mask, nitrile gloves, protective eyewear",
+          "bee_warning": "Highly toxic to bees during active foraging; avoid spraying during bloom hours"
+        },
+        {
+          "active_ingredient": "Acetamiprid 20% SP",
+          "trade_examples": "Pride, Rekord, Manik",
+          "dosage_per_acre": "40–50 g in 200 L water",
+          "concentration": "0.2–0.25 g per litre of water",
+          "application_method": "High-volume knapsack foliar spray targeting leaf undersides",
+          "phi_days": 7,
+          "toxicity_class": "Class II (Moderately hazardous - Yellow label)",
+          "ppe_required": "Mask and full protective clothing",
+          "bee_warning": "Toxic to pollinators; spray only post-sunset"
+        }
+      ]
+    },
+    "aphids": {
+      "pest_name": "Aphids",
+      "crops": ["Mustard", "Cotton", "Chilli", "Wheat", "Potato", "Bean"],
+      "verified_products": [
+        {
+          "active_ingredient": "Imidacloprid 17.8% SL",
+          "trade_examples": "Confidor, Victor, Tatamida",
+          "dosage_per_acre": "50–60 ml in 200 L water",
+          "concentration": "0.3 ml per litre of water",
+          "application_method": "Foliar spray upon appearance of nymphs on tender shoots",
+          "phi_days": 15,
+          "toxicity_class": "Class II (Moderately hazardous - Yellow label)",
+          "ppe_required": "Mask, chemical-resistant gloves",
+          "bee_warning": "Extremely toxic to bees; do not spray open flowering brassica crops during day"
+        },
+        {
+          "active_ingredient": "Dimethoate 30% EC",
+          "trade_examples": "Rogor, Tafgor",
+          "dosage_per_acre": "250–300 ml in 200 L water",
+          "concentration": "1.25–1.5 ml per litre of water",
+          "application_method": "Foliar spray targeting colonies",
+          "phi_days": 14,
+          "toxicity_class": "Class II (Yellow label)",
+          "ppe_required": "Full body overalls and respirator",
+          "bee_warning": "Avoid during pollination"
+        }
+      ]
+    },
+    "pod_borer": {
+      "pest_name": "Pod Borer / Fruit Borer (Helicoverpa armigera / Maruca)",
+      "crops": ["Pigeon Pea", "Gram", "Tomato", "Brinjal", "Cotton", "Chilli"],
+      "verified_products": [
+        {
+          "active_ingredient": "Indoxacarb 14.5% SC",
+          "trade_examples": "Avaunt, Dox, Kingdoxa",
+          "dosage_per_acre": "150–200 ml in 200 L water",
+          "concentration": "0.8–1.0 ml per litre of water",
+          "application_method": "Foliar spray at 50% flowering and early pod/fruit initiation",
+          "phi_days": 7,
+          "toxicity_class": "Class III (Blue label)",
+          "ppe_required": "Gloves and protective face shield",
+          "bee_warning": "Low toxicity to adult bees once dried"
+        },
+        {
+          "active_ingredient": "Emamectin Benzoate 5% SG",
+          "trade_examples": "Proclaim, Missile, Safari",
+          "dosage_per_acre": "80–100 g in 200 L water",
+          "concentration": "0.4–0.5 g per litre of water",
+          "application_method": "Foliar spray when young caterpillars are detected",
+          "phi_days": 5,
+          "toxicity_class": "Class III (Blue label)",
+          "ppe_required": "Gloves and dust mask",
+          "bee_warning": "Toxic to bees directly exposed to spray"
+        }
+      ]
+    },
+    "leaf_curl_virus": {
+      "pest_name": "Leaf Curl Virus (Vector: Whitefly Bemisia tabaci)",
+      "crops": ["Chilli", "Tomato", "Papaya", "Cotton"],
+      "verified_products": [
+        {
+          "active_ingredient": "Diafenthiuron 50% WP (Vector Control)",
+          "trade_examples": "Pegasus, Agentas",
+          "dosage_per_acre": "250 g in 200 L water",
+          "concentration": "1.25 g per litre of water",
+          "application_method": "Foliar spray to suppress whitefly vector population",
+          "phi_days": 10,
+          "toxicity_class": "Class II (Yellow label)",
+          "ppe_required": "Full protective PPE",
+          "bee_warning": "Do not contaminate water bodies"
+        }
+      ]
+    },
+    "blast": {
+      "pest_name": "Blast (Magnaporthe oryzae / Pyricularia oryzae)",
+      "crops": ["Paddy (Rice)", "Finger Millet"],
+      "verified_products": [
+        {
+          "active_ingredient": "Tricyclazole 75% WP",
+          "trade_examples": "Beam, Baan, Sivic",
+          "dosage_per_acre": "120–150 g in 200 L water",
+          "concentration": "0.6–0.75 g per litre of water",
+          "application_method": "Prophylactic spray at tillering and boot leaf stage",
+          "phi_days": 21,
+          "toxicity_class": "Class III (Blue label)",
+          "ppe_required": "Protective face mask and rubber gloves",
+          "bee_warning": "Relatively safe to pollinators"
+        }
+      ]
+    },
+    "early_blight": {
+      "pest_name": "Early Blight / Alternaria Leaf Spot",
+      "crops": ["Tomato", "Potato", "Chilli"],
+      "verified_products": [
+        {
+          "active_ingredient": "Mancozeb 75% WP",
+          "trade_examples": "Dithane M-45, Indofil M-45",
+          "dosage_per_acre": "400–500 g in 200 L water",
+          "concentration": "2.0–2.5 g per litre of water",
+          "application_method": "Uniform coverage of foliage at first sign of concentric spots",
+          "phi_days": 7,
+          "toxicity_class": "Class IV (Slightly hazardous - Green label)",
+          "ppe_required": "Mask and gloves",
+          "bee_warning": "Safe for pollinators when used as per label"
+        }
+      ]
+    }
+  }
+}

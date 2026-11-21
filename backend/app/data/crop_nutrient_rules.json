@@ -1,0 +1,149 @@
+{
+  "crops": {
+    "paddy": {
+      "name": "Paddy (Rice)",
+      "rdf_n": 120,
+      "rdf_p2o5": 60,
+      "rdf_k2o": 40,
+      "duration_days": 135,
+      "optimal_ph_min": 5.5,
+      "optimal_ph_max": 7.0,
+      "citation": "ICAR - National Rice Research Institute (NRRI), Cuttack",
+      "splits": [
+        { "stage": "Basal (At Sowing/Transplanting)", "n_pct": 33, "p_pct": 100, "k_pct": 50, "days": 0 },
+        { "stage": "1st Top Dressing (Active Tillering)", "n_pct": 33, "p_pct": 0, "k_pct": 0, "days": 25 },
+        { "stage": "2nd Top Dressing (Panicle Initiation)", "n_pct": 34, "p_pct": 0, "k_pct": 50, "days": 50 }
+      ]
+    },
+    "cotton": {
+      "name": "Cotton",
+      "rdf_n": 120,
+      "rdf_p2o5": 60,
+      "rdf_k2o": 60,
+      "duration_days": 160,
+      "optimal_ph_min": 6.5,
+      "optimal_ph_max": 8.0,
+      "citation": "ICAR - Central Institute for Cotton Research (CICR), Nagpur",
+      "splits": [
+        { "stage": "Basal (At Sowing)", "n_pct": 25, "p_pct": 100, "k_pct": 50, "days": 0 },
+        { "stage": "1st Top Dressing (Square Formation)", "n_pct": 37.5, "p_pct": 0, "k_pct": 25, "days": 35 },
+        { "stage": "2nd Top Dressing (Peak Flowering/Boll)", "n_pct": 37.5, "p_pct": 0, "k_pct": 25, "days": 65 }
+      ]
+    },
+    "chilli": {
+      "name": "Chilli",
+      "rdf_n": 150,
+      "rdf_p2o5": 60,
+      "rdf_k2o": 60,
+      "duration_days": 150,
+      "optimal_ph_min": 6.0,
+      "optimal_ph_max": 7.5,
+      "citation": "Dr. YSR Horticultural University & ICAR-IIHR Bengaluru",
+      "splits": [
+        { "stage": "Basal (Transplanting)", "n_pct": 30, "p_pct": 100, "k_pct": 50, "days": 0 },
+        { "stage": "1st Top Dressing (Vegetative Branching)", "n_pct": 35, "p_pct": 0, "k_pct": 25, "days": 30 },
+        { "stage": "2nd Top Dressing (Flowering & Fruit Set)", "n_pct": 35, "p_pct": 0, "k_pct": 25, "days": 60 }
+      ]
+    },
+    "wheat": {
+      "name": "Wheat",
+      "rdf_n": 120,
+      "rdf_p2o5": 60,
+      "rdf_k2o": 40,
+      "duration_days": 120,
+      "optimal_ph_min": 6.0,
+      "optimal_ph_max": 7.5,
+      "citation": "ICAR - Indian Institute of Wheat and Barley Research (IIWBR), Karnal",
+      "splits": [
+        { "stage": "Basal (Sowing)", "n_pct": 50, "p_pct": 100, "k_pct": 100, "days": 0 },
+        { "stage": "1st Top Dressing (Crown Root Initiation - 21 DAS)", "n_pct": 25, "p_pct": 0, "k_pct": 0, "days": 21 },
+        { "stage": "2nd Top Dressing (Late Jointing - 45 DAS)", "n_pct": 25, "p_pct": 0, "k_pct": 0, "days": 45 }
+      ]
+    },
+    "maize": {
+      "name": "Maize",
+      "rdf_n": 120,
+      "rdf_p2o5": 60,
+      "rdf_k2o": 50,
+      "duration_days": 110,
+      "optimal_ph_min": 5.8,
+      "optimal_ph_max": 7.2,
+      "citation": "ICAR - Indian Institute of Maize Research (IIMR), Ludhiana",
+      "splits": [
+        { "stage": "Basal (Sowing)", "n_pct": 30, "p_pct": 100, "k_pct": 50, "days": 0 },
+        { "stage": "1st Top Dressing (Knee High Stage)", "n_pct": 35, "p_pct": 0, "k_pct": 0, "days": 25 },
+        { "stage": "2nd Top Dressing (Tasseling Stage)", "n_pct": 35, "p_pct": 0, "k_pct": 50, "days": 50 }
+      ]
+    },
+    "pigeon_pea": {
+      "name": "Pigeon Pea (Redgram / Arhar)",
+      "rdf_n": 20,
+      "rdf_p2o5": 50,
+      "rdf_k2o": 20,
+      "duration_days": 170,
+      "optimal_ph_min": 6.5,
+      "optimal_ph_max": 7.8,
+      "citation": "ICAR - Indian Institute of Pulses Research (IIPR), Kanpur",
+      "splits": [
+        { "stage": "Basal (Sowing - Legume N-fixing Starter)", "n_pct": 100, "p_pct": 100, "k_pct": 100, "days": 0 }
+      ]
+    },
+    "groundnut": {
+      "name": "Groundnut",
+      "rdf_n": 20,
+      "rdf_p2o5": 40,
+      "rdf_k2o": 40,
+      "duration_days": 115,
+      "optimal_ph_min": 6.0,
+      "optimal_ph_max": 7.0,
+      "citation": "ICAR - Directorate of Groundnut Research (DGR), Junagadh",
+      "splits": [
+        { "stage": "Basal (Sowing)", "n_pct": 100, "p_pct": 100, "k_pct": 100, "days": 0 }
+      ]
+    },
+    "sugarcane": {
+      "name": "Sugarcane",
+      "rdf_n": 250,
+      "rdf_p2o5": 100,
+      "rdf_k2o": 120,
+      "duration_days": 360,
+      "optimal_ph_min": 6.5,
+      "optimal_ph_max": 8.0,
+      "citation": "ICAR - Sugarcane Breeding Institute (SBI), Coimbatore",
+      "splits": [
+        { "stage": "Basal (At Planting)", "n_pct": 20, "p_pct": 100, "k_pct": 33, "days": 0 },
+        { "stage": "1st Top Dressing (Tillering - 45 DAP)", "n_pct": 40, "p_pct": 0, "k_pct": 33, "days": 45 },
+        { "stage": "2nd Top Dressing (Grand Growth - 90 DAP)", "n_pct": 40, "p_pct": 0, "k_pct": 34, "days": 90 }
+      ]
+    },
+    "potato": {
+      "name": "Potato",
+      "rdf_n": 150,
+      "rdf_p2o5": 100,
+      "rdf_k2o": 100,
+      "duration_days": 100,
+      "optimal_ph_min": 5.0,
+      "optimal_ph_max": 6.5,
+      "citation": "ICAR - Central Potato Research Institute (CPRI), Shimla",
+      "splits": [
+        { "stage": "Basal (Planting)", "n_pct": 50, "p_pct": 100, "k_pct": 100, "days": 0 },
+        { "stage": "Top Dressing (Earthing Up - 30 DAP)", "n_pct": 50, "p_pct": 0, "k_pct": 0, "days": 30 }
+      ]
+    },
+    "tomato": {
+      "name": "Tomato",
+      "rdf_n": 150,
+      "rdf_p2o5": 100,
+      "rdf_k2o": 100,
+      "duration_days": 120,
+      "optimal_ph_min": 6.0,
+      "optimal_ph_max": 7.0,
+      "citation": "ICAR - Indian Institute of Horticultural Research (IIHR), Bengaluru",
+      "splits": [
+        { "stage": "Basal (Transplanting)", "n_pct": 33, "p_pct": 100, "k_pct": 50, "days": 0 },
+        { "stage": "1st Top Dressing (Vegetative - 30 DAT)", "n_pct": 33, "p_pct": 0, "k_pct": 25, "days": 30 },
+        { "stage": "2nd Top Dressing (Flowering & Fruit Set - 50 DAT)", "n_pct": 34, "p_pct": 0, "k_pct": 25, "days": 50 }
+      ]
+    }
+  }
+}

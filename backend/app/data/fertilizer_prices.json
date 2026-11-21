@@ -1,0 +1,84 @@
+{
+  "currency": "INR",
+  "symbol": "₹",
+  "last_updated": "2026-10-01",
+  "source": "Department of Fertilizers, Ministry of Chemicals and Fertilizers, Govt. of India",
+  "fertilizers": {
+    "urea": {
+      "name": "Neem Coated Urea (46% N)",
+      "bag_weight_kg": 45,
+      "bag_price_inr": 266.50,
+      "price_per_kg": 5.92,
+      "nutrient_n_pct": 46,
+      "nutrient_p_pct": 0,
+      "nutrient_k_pct": 0
+    },
+    "dap": {
+      "name": "DAP - Diammonium Phosphate (18-46-0)",
+      "bag_weight_kg": 50,
+      "bag_price_inr": 1350.00,
+      "price_per_kg": 27.00,
+      "nutrient_n_pct": 18,
+      "nutrient_p_pct": 46,
+      "nutrient_k_pct": 0
+    },
+    "mop": {
+      "name": "MOP - Muriate of Potash (0-0-60)",
+      "bag_weight_kg": 50,
+      "bag_price_inr": 1700.00,
+      "price_per_kg": 34.00,
+      "nutrient_n_pct": 0,
+      "nutrient_p_pct": 0,
+      "nutrient_k_pct": 60
+    },
+    "ssp": {
+      "name": "Single Super Phosphate (16% P2O5)",
+      "bag_weight_kg": 50,
+      "bag_price_inr": 500.00,
+      "price_per_kg": 10.00,
+      "nutrient_n_pct": 0,
+      "nutrient_p_pct": 16,
+      "nutrient_k_pct": 0
+    },
+    "npk_10_26_26": {
+      "name": "Complex NPK (10:26:26)",
+      "bag_weight_kg": 50,
+      "bag_price_inr": 1470.00,
+      "price_per_kg": 29.40,
+      "nutrient_n_pct": 10,
+      "nutrient_p_pct": 26,
+      "nutrient_k_pct": 26
+    },
+    "npk_20_20_0_13": {
+      "name": "Ammonium Phosphate Sulphate (20:20:0:13)",
+      "bag_weight_kg": 50,
+      "bag_price_inr": 1200.00,
+      "price_per_kg": 24.00,
+      "nutrient_n_pct": 20,
+      "nutrient_p_pct": 20,
+      "nutrient_k_pct": 0
+    },
+    "fym": {
+      "name": "Well-decomposed Farm Yard Manure (FYM)",
+      "unit": "ton",
+      "price_per_unit": 900.00
+    },
+    "biofertilizer": {
+      "name": "Biofertilizer Packet (Azotobacter / PSB / Rhizobium)",
+      "unit": "packet (250g)",
+      "price_per_unit": 70.00
+    },
+    "gypsum": {
+      "name": "Agricultural Grade Gypsum (for Sodic/Alkali soils)",
+      "bag_weight_kg": 50,
+      "bag_price_inr": 150.00,
+      "price_per_kg": 3.00
+    },
+    "lime": {
+      "name": "Agricultural Dolomitic Lime (for Acidic soils)",
+      "bag_weight_kg": 50,
+      "bag_price_inr": 180.00,
+      "price_per_kg": 3.60
+    }
+  }
+}
